@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.summary          = "Wisho iOS SDK."
   spec.description      = 'Wisho iOS SDK enables the features of the Wisho in your iOS Application.'
   spec.homepage         = 'https://github.com/wishoapp/testing-ios'
-  spec.license          = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license          = { :type => "MIT", :file => "LICENSE" }
   spec.author           = { "Ali Can Batur" => "alican@invivosoftware.com" }
   spec.source              = { :http => 'https://github.com/wishoapp/testing-ios/raw/main/Wisho_iOSSDK_0_0_1.zip' }
   spec.social_media_url    = 'https://twitter.com/wishoapp'
