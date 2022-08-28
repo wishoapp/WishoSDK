@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.homepage         = 'https://github.com/wishoapp/testing-ios'
   spec.license          = { :type => "MIT", :file => "LICENSE" }
   spec.author           = "Wisho"
-  spec.source              = { :http => 'https://github.com/wishoapp/testing-ios/raw/main/Wisho_iOSSDK_0_0_1.zip' }
+  spec.source              = { :http => 'https://github.com/wishoapp/testing-ios/raw/main/Wisho_iOSSDK_0_0_2.zip' }
   spec.social_media_url    = 'https://twitter.com/wishoapp'
   spec.vendored_frameworks = 'Wisho.framework'
   
