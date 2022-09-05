@@ -22,6 +22,7 @@ zip -r Wisho_iOSSDK_$UNDERSCOREDVERSION.zip LICENSE Wisho.framework
 ######################
 # Commit changes, push them and tag the current version.
 ######################
+rm Wisho.framework
 git add *
 git commit -m "New build is prepared. ($1) "
 git tag $1
