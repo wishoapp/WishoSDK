@@ -24,7 +24,7 @@ zip -r Wisho_iOSSDK_$UNDERSCOREDVERSION.zip LICENSE Wisho.framework
 ######################
 WORKING_DIR=Wisho.framework
 if [ -d "$WORKING_DIR" ]; then rm -Rf $WORKING_DIR; fi
-git add -u
+git add .
 git commit -m "New build is prepared. ($1) "
 git tag $1
 git push
