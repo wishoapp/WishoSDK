@@ -12,18 +12,9 @@ UNDERSCOREDVERSION="${version//./_}"
 ######################
 rm *.zip
 
-
-######################
-# Zip LICENSE and Framework files. 
-######################
-zip -r Wisho_iOSSDK_$UNDERSCOREDVERSION.zip LICENSE Wisho.framework
-
-
 ######################
 # Commit changes, push them and tag the current version.
 ######################
-WORKING_DIR=Wisho.framework
-if [ -d "$WORKING_DIR" ]; then rm -Rf $WORKING_DIR; fi
 git add .
 git commit -m "New build is prepared. ($1) "
 git tag $1
