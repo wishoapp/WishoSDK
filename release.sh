@@ -2,15 +2,8 @@
 
 
 ######################
-# Convert inputted version from 0.0.1 to 0_0_1
+# Example usage: ./release.sh 1.0.0
 ######################
-version=$1
-UNDERSCOREDVERSION="${version//./_}"
-
-######################
-# Remove all zip files. 
-######################
-rm *.zip
 
 ######################
 # Commit changes, push them and tag the current version.
